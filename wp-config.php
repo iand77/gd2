@@ -26,7 +26,7 @@ define('DB_NAME', 'hotels2');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'data098098D');
+define('DB_PASSWORD', '{YOUR PASSWORD}');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
