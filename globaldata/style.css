@@ -1,0 +1,19 @@
+label {
+	display: block;
+}
+
+.float-left {
+	float:left;
+}
+
+.result-item {
+	box-shadow: 0px 0px 3px #ccc;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.result-hotel-name, .result-hotel-price {
+	font-weight:bold;
+	font-size:150%;
+	
+}
