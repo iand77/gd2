@@ -12,7 +12,11 @@ $(function() {
 		fetch_results();
 		
 		function format_star_rating(rating) {
-			return rating;
+			var ratingString = '';
+			for(var i = 0; i < rating; i++) {
+				ratingString += '<span class="glyphicon glyphicon-star"></span>';
+			}
+			return ratingString+'&nbsp;';
 		}
 		
 		function format_address(houseNo, addressLn1, addressLn2, city, state, zip) {
